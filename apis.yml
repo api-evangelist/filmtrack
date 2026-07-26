@@ -1,7 +1,26 @@
 aid: filmtrack
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/filmtrack.png
 name: FilmTrack
-description: FilmTrack is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FilmTrack is a cloud-based content and rights management platform for the media and
+  entertainment industry, streamlining the intellectual property lifecycle from project inception
+  through distribution. Its software gives distributors and studios a holistic view of the data
+  behind rights, availabilities, contracts, invoicing, licensing, revenue recognition, royalties,
+  and workflow management. Founded in 1996 by Jason Kassin and headquartered in Studio City,
+  California, FilmTrack was acquired by City National Bank in 2019 and now operates alongside
+  Rightsline. Its API-first architecture enables integration with ERP and financial systems such
+  as SAP and NetSuite, and an event bus for change-driven automation. Customers include Lionsgate,
+  Miramax, Focus Features, Starz, and Screen Australia.
 url: https://raw.githubusercontent.com/api-evangelist/filmtrack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Entertainment
+- Media and Entertainment
+- Rights Management
+- Royalties
+- Licensing
+- Content Management
+- Intellectual Property
+- Contracts
+- Revenue Recognition
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.filmtrack.net/
+  url: https://filmtrack.com/
+- type: Blog
+  url: https://blog.filmtrack.com/
+- type: PrivacyPolicy
+  url: https://www.filmtrack.com/privacy-policy/
+- type: Support
+  url: https://filmtrackapp.zendesk.com/hc/en-us
+- type: Lifecycle
+  url: lifecycle/filmtrack-lifecycle.yml
+- type: DomainSecurity
+  url: security/filmtrack-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
